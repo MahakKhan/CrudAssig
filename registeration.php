@@ -100,7 +100,7 @@
 
 
                <div class="inputBox">
-			    <input type="text" name="pass"  required=""  value="<?php if(isset($_POST['pass'])) echo trim($_POST['pass']);?>">
+			    <input type="password" name="pass"  required=""  value="<?php if(isset($_POST['pass'])) echo trim($_POST['pass']);?>">
 			    <label>Password</label>
 		      </div>
 
